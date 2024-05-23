@@ -1,0 +1,165 @@
+.container {
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+body {
+  background-image: url("../images/background.png");
+}
+
+.form-control {
+  display: inline-block;
+  width: 80%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: 0;
+}
+
+button {
+  display: inline-block;
+  background-color: #1096F2;
+  border: none;
+  padding: 5px 8px;
+  border-radius: 5px;
+  width: 35%;
+  margin-top: -10px;
+  letter-spacing: 0px;
+  font-size: 18px;
+}
+
+#rbr_logo {
+  width: 250px;
+  margin-bottom: -20px;
+}
+
+textarea,
+input {
+  font-size: 15px;
+  letter-spacing: 0px;
+}
+
+textarea,
+input {
+  background-color: #303030;
+  color: #ffffff;
+}
+
+textarea:hover,
+input:hover {
+  border: red;
+}
+
+button:hover {
+  background-color: #039119;
+  transition: 0.7s;
+}
+
+h1,
+p {
+  margin: 10px;
+}
+
+label {
+  margin-right: 15px;
+}
+
+h1,
+label,
+button,
+#developed {
+  color: white;
+  margin-bottom: 0px;
+}
+
+#rule {
+  color: #FC95E1;
+}
+
+#disclaimer {
+  font-size: 12px;
+  color: #CCCCCC;
+}
+
+#author {
+  font-size: 18px;
+  text-decoration: none;
+  background-image: linear-gradient(45deg, #62a0ea, #1a5fb4);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  color: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+.staticrypt-form {
+  position: relative;
+  z-index: 1;
+  background: #1a1a1a;
+  max-width: 100%;
+  padding: 5px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  border-radius: 20px;
+  border: 8px solid white;
+  outline: 3px solid black;
+}
+
+* {
+  cursor: url("../images/cursor_normal.png"), auto !important;
+  font-family: 'Baloo 2';
+  font-weight: 600;
+}
+
+input[type="text"],
+input[type="password"],
+textarea {
+  cursor: url("../images/curson_insert.png"), auto !important;
+}
+
+.icon {
+  font-size: 12px;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  background-color: #303030;
+  border-radius: 5px;
+  padding: 0 5px;
+  margin: 0 3px;
+}
+
+.link:hover {
+  background-color: #3584e4;
+  transition: 0.7s;
+}
+
+.link_row {
+  margin-top: 5px;
+}
+
+.bottom_icon {
+  vertical-align: middle;
+  padding-right: 5px;
+}
+
+textarea {
+  height: 50px;
+}
+
+h1 {
+  font-size: 28px;
+}
