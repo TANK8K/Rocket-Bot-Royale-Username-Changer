@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Rocket Bot Royale Username Changer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <style>
+    html,
+    body {
+      height: 100%;
+      width: 100%;
+    }
+
+    .container {
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      height: 100%;
+      width: 100%;
+    }
+    
+    body {
+      font-family: 'Baloo 2';
+      width: 100vw;
+      background-color: #1096F2;
+      overflow: hidden;
+    }
+
+    .form-control {
+      display: inline-block;
+      width: 90%;
+      margin: 10px 0;
+      padding: 10px;
+      border-radius: 5px;
+      border: 2px solid #172432;
+    }
+
+    button {
+      display: inline-block;
+      background-color: #1096F2;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      width: 95%;
+    }
+
+    button, textarea, input {
+      font-size: 15px !important;
+      letter-spacing: 0px !important;
+    }
+
+    button:hover {
+        background-color: #039119;
+        transition: 0.7s;
+    }
+
+    button, textarea, input{
+      font-family: 'Baloo 2' !important;
+      font-weight: 600 !important;
+    }
+
+    h1, label, button, .author {
+      color: white !important;
+    }
+    
+    .staticrypt-form {
+      position: relative;
+      z-index: 1;
+      background: #1a1a1a;
+      max-width: 100%;
+      padding: 40px;
+      text-align: center;
+      box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+      border-radius: 20px;
+      border: 8px solid white;
+      outline: 3px solid black;
+    }
+
+
+    input[type="text"], input[type="password"], textarea {
+      cursor: url("https://i.imgur.com/j5P4F3p_d.png"), auto !important;
+    }
+    
+    * {
+      cursor: url("https://i.imgur.com/ZaSCC3Q.png"), auto !important;
+    }
+  </style>
+  <script>
+    function setCookie(cname, cvalue, exdays) {
+      const d = new Date();
+      d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+      let expires = "expires=" + d.toUTCString();
+      document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+    }
+
+    function getCookie(cname) {
+      let name = cname + "=";
+      let decodedCookie = decodeURIComponent(document.cookie);
+      let ca = decodedCookie.split(';');
+      for (let i = 0; i < ca.length; i++) {
+        let c = ca[i];
+        while (c.charAt(0) == ' ') {
+          c = c.substring(1);
+        }
+        if (c.indexOf(name) == 0) {
+          return c.substring(name.length, c.length);
+        }
+      }
+      return "";
+    }
+
+    function checkCookie() {
+      let email_cookie = getCookie("email");
+      let password_cookie = getCookie("password");
+      email = document.getElementById("email");
+      password = document.getElementById("password");
+      if (email_cookie != null && email_cookie != "") {
+        email.value = email_cookie;
+      }
+      if (password_cookie != null && password_cookie != "") {
+        password.value = password_cookie;
+      }
+    }
+  </script>
+</head>
+
+<body onload=checkCookie();>
+  <div class="container">
+    <div class="staticrypt-form">
+    <form id="loginForm">
+      <img src="https://static.wixstatic.com/media/d0c5be_340d3a8d80104f39b07a297380a979a0~mv2.png/v1/fill/w_349,h_196,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/rbr-logo.png" alt="rbr-logo.png" width="279" height="157" srcset="https://static.wixstatic.com/media/d0c5be_340d3a8d80104f39b07a297380a979a0~mv2.png/v1/fill/w_349,h_196,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/rbr-logo.png" fetchpriority="high" style="width: 279px; height: 157px; object-fit: cover;">
+    <h1>Username Changer</h1>
+      <input type="text" id="email" class="form-control" placeholder="Enter your Email" required autocomplete="username" style="inline:true">
+      <input type="password" id="password" class="form-control" placeholder="Enter your Password" required autocomplete="current-password">
+      <div></div>
+      <textarea maxlength="30" id="username" name="username" class="form-control" rows="4" cols="50"
+        placeholder="Enter your New Username" style="inline:true"></textarea>
+      <div></div>
+      <input type="checkbox" id="remember" name="remember" value="remember" checked>
+      <label for="remember"> Remember my account</label><br>
+      <input type="checkbox" id="show" name="show" value="show" onclick="myFunction()">
+      <label for="show"> Show Password</label><br><br>
+      <button type="submit">Submit</button><br><br>
+      <span class="author">Made by TaNk8k</span><br><br>
+      <span class="author" style="text-decoration: underline; color: #FC95E1 !important">Note: Do not use superlong names or names containing profanity</span><br><br>
+      <span class="author" style="text-decoration: underline; color: #FC95E1 !important">Note: It may stop working at some point</span>
+    </form>
+    </div>
+  </div>
+
+  <script>
+    let loginForm = document.getElementById("loginForm");
+
+    loginForm.addEventListener("submit", (e) => {
+      e.preventDefault();
+
+      let email = document.getElementById("email").value;
+      let password = document.getElementById("password").value;
+      let username = document.getElementById("username").value;
+
+      if (email == "" || password == "" || username == "") {
+        alert("Ensure you input a value in all fields!");
+      } else {
+        validate()
+      }
+    });
+  </script>
+  <script>
+    async function validate() {
+      let obj;
+      const res = await fetch(
+        "https://dev-nakama.winterpixel.io/v2/account/authenticate/email?create=false",
+        {
+          method: "POST",
+          headers: {
+            authorization: "Basic OTAyaXViZGFmOWgyZTlocXBldzBmYjlhZWIzOTo=",
+          },
+          body: JSON.stringify({
+            email: document.getElementById("email").value,
+            password: document.getElementById("password").value,
+            vars: {client_version: "99999"},
+          }),
+        }
+      );
+      obj = await res.json();
+      status_code = res.status;
+      console.log(obj);
+      token = obj["token"];
+      console.log(token);
+
+
+      if (status_code == 200) {
+        email = document.getElementById("email").value;
+        password = document.getElementById("password").value;
+        username = document.getElementById("username").value;
+
+        console.log(token)
+        console.log(username)
+        const res2 = await fetch(
+          "https://dev-nakama.winterpixel.io/v2/account",
+          {
+            method: "PUT",
+            headers: {
+              authorization: "Bearer " + token,
+            },
+            body: JSON.stringify({
+              display_name: username,
+            }),
+          }
+        );
+
+        if (document.getElementById('remember').checked) {
+          setCookie("email", email, 9999)
+          setCookie("password", password, 9999)
+        }
+
+        alert("Success!");
+      } else if (status_code == 401) {
+        alert("Invalid credentials.");
+      } else if (status_code == 404) {
+        alert("User account not found.");
+      }
+    }
+  </script>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("password");
+      if (x.type === "password") {
+        x.type = "text";
+      } else {
+        x.type = "password";
+      }
+    }
+  </script>
+</body>
+
+</html>
