@@ -3,7 +3,7 @@
 
 <div align="center">
 
-[![Website](https://img.shields.io/website?url=https%3A%2F%2Frocket-bot-royale-username-changer.replit.app&up_message=Up&up_color=green&down_message=Down%20(probably%20under%20maintenance)&down_color=red&style=flat-square&label=Website&nbsp;Status)](https://rocket-bot-royale-username-changer.replit.app/)
+[![Website](https://img.shields.io/website?url=https%3A%2F%2Frocket-bot-royale-username-changer.replit.app&up_message=Up&up_color=brightgreen&down_message=Down&down_color=ff0000&style=flat-square&label=Website&nbsp;Status)](https://rocket-bot-royale-username-changer.replit.app/)
 [![Static Badge](https://img.shields.io/badge/%3E_1K%20Forks-orange?style=flat-square&logo=replit&label=Replit&labelColor=grey)](https://replit.com/@kTaNk8k/Rocket-Bot-Royale-Username-Changer)
 ![Static Badge](https://img.shields.io/badge/Change-instant_%F0%9F%94%A5-blue?style=flat-square&logo=a)
 [![code style: prettier](https://img.shields.io/badge/Code_Style-Prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
