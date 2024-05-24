@@ -49,10 +49,9 @@
 
 <body onload=checkCookie();>
   <div class="container centered">
-    <div class="staticrypt-form">
+    <div class="staticrypt-form centered">
       <form id="loginForm">
-        <img id="rbr_logo" src="images/rbr_logo.png" alt="rbr-logo.png" srcset="images/rbr_logo.png"
-          fetchpriority="high">
+        <img id="rbr_logo" src="images/rbr_logo.png" alt="rbr-logo.png">
         <h1>Username Changer</h1>
         <div>
           <input type="text" id="email" class="form-control" placeholder="Enter your Email" required
@@ -62,29 +61,43 @@
         </div>
         <div>
           <textarea maxlength="30" id="username" name="username" class="form-control" rows="4" cols="50"
-            placeholder="Enter your New Username"></textarea>
+            placeholder="Enter your New Username" autocomplete="on"></textarea>
         </div>
-        <input type="checkbox" id="remember" name="remember" value="remember" checked>
-        <label for="remember"> Remember my account</label><br>
-        <input type="checkbox" id="show" name="show" value="show" onclick="toggle_password()">
-        <label for="show"> Show Password</label><br><br>
-        <button type="submit">SUBMIT</button><br>
+        <div class="toggle">
+          <label for="remember"> Remember my account</label>
+          <label class="switch">
+            <input type="checkbox" id="remember" name="remember" value="remember" checked>
+            <span class="slider round"></span>
+          </label>
+        </div>
+        <div class="toggle">
+          <label for="show"> Show Password</label>
+          <label class="switch">
+            <input type="checkbox" onclick="toggle_password()" autocomplete="off">
+            <span class="slider round"></span>
+          </label>
+        </div>
+        <div>
+          <button type="submit">SUBMIT</button>
+        </div>
         <p id="rule">🚫 Long name / Profanity</p>
         <p id="developed">
           <br>Developed with 💖 by <a id="author" href="https://tank8k.com">TANK8K</a><br>
           <a class="link" href="https://github.com/TANK8K/Rocket-Bot-Royale-Username-Changer"><i
               class="fas fa-fw fa-code icon"></i> source code</a><br>
         <div class="link_row">
-          <a class="link" href="https://tank8k.com"><img class="bottom_icon" width="15px"
-              src="images/icon_tank8k.png">My Website</a>
           <a class="link" href="https://github.com/TANK8K"><img class="bottom_icon" width="15px"
               src="images/icon_github.png">GitHub</a>
+          <a class="link" href="https://youtube.com/@TANK8K"><img class="bottom_icon" width="15px"
+              src="images/icon_yt.png">YouTube</a>
           <a class="link" href="https://rocketbotroyale.fandom.com/wiki/Rocket_Bot_Royale_Wiki"><img class="bottom_icon"
               width="15px" src="images/icon_rbr_fandom.png">Fandom</a>
         </div>
         <div class="link_row">
+          <a class="link" href="https://tank8k.com"><img class="bottom_icon" width="15px"
+              src="images/icon_tank8k.png">My Website</a>
           <a class="link" href="https://winterpixelgames.com"><img class="bottom_icon" width="15px"
-              src="images/icon_wpg.png">WinterPixelGames » Tools and Stats</a>
+              src="images/icon_wpg.png">WPG » Tools and Stats</a>
         </div>
         </p>
         <p id="disclaimer">This tool is not endorsed by WinterpixelGames Inc.<br>All relevant trademarks belong to their
