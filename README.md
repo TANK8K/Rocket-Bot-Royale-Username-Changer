@@ -2,6 +2,7 @@
 <img src="https://github.com/TANK8K/Rocket-Bot-Royale-Username-Changer/blob/main/images/github_banner.png" alt="banner">
 
 <div align="center">
+<a href="https://replit.com/@kTaNk8k/Rocket-Bot-Royale-Username-Changer"><img width="100" src="https://github.com/TANK8K/Rocket-Bot-Royale-Username-Changer/blob/main/images/hosted_on_replit_button.png" alt="Hosted On Replit"></a>
 
 [![Website](https://img.shields.io/website?url=https%3A%2F%2Frocket-bot-royale-username-changer.replit.app&up_message=Up&up_color=brightgreen&down_message=Down&down_color=ff0000&style=flat-square&label=Website&nbsp;Status)](https://rocket-bot-royale-username-changer.replit.app/)
 [![Static Badge](https://img.shields.io/badge/%3E_1K%20Forks-orange?style=flat-square&logo=replit&label=Replit&labelColor=grey)](https://replit.com/@kTaNk8k/Rocket-Bot-Royale-Username-Changer)
@@ -25,7 +26,6 @@
 </div>
 
 ## ℹ️ About
-<a href="https://replit.com/@kTaNk8k/Rocket-Bot-Royale-Username-Changer"><img width="125" src="https://github.com/TANK8K/Rocket-Bot-Royale-Username-Changer/blob/main/images/hosted_on_replit_button.png" alt="Hosted On Replit"></a>
 - A simple **static website** which uses Rocket Bot Royale's Game Server Client API, allowing players to **change** their in-game **username** in [Rocket Bot Royale](https://rocketbotroyale.winterpixel.io/) in real-time!
 - Remembered account credentials are stored locally as [cookies](https://www.wikiwand.com/en/HTTP_cookie) in browser.
 - HTTP requests are submitted to Rocket Bot Royale's Game Server directly.
