@@ -31,7 +31,7 @@
 - HTTP requests are submitted to Rocket Bot Royale's Game Server directly.
 
 >[!Important]
->This tool is not endorsed by [WinterpixelGames Inc.](https://www.winterpixel.com)<br>All relevant trademarks belong to their respective owners.
+>This tool is NOT endorsed by [WinterpixelGames Inc.](https://www.winterpixel.com)<br>All relevant trademarks belong to their respective owners.
 
 >[!Note]
 >This tool may stop working due to game changes.
