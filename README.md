@@ -4,11 +4,11 @@
 <div align="center">
 <a href="https://replit.com/@kTaNk8k/Rocket-Bot-Royale-Username-Changer"><img width="100" src="https://github.com/TANK8K/Rocket-Bot-Royale-Username-Changer/blob/main/images/hosted_on_replit_button.png" alt="Hosted On Replit"></a>
 
-[![Website](https://img.shields.io/website?url=https%3A%2F%2Frocket-bot-royale-username-changer.replit.app&up_message=Up&up_color=brightgreen&down_message=Down&down_color=ff0000&style=flat-square&label=Website&nbsp;Status)](https://rocket-bot-royale-username-changer.replit.app/)
-[![Static Badge](https://img.shields.io/badge/%3E_1K%20Forks-orange?style=flat-square&logo=replit&label=Replit&labelColor=grey)](https://replit.com/@kTaNk8k/Rocket-Bot-Royale-Username-Changer)
-![Static Badge](https://img.shields.io/badge/Change-instant_%F0%9F%94%A5-blue?style=flat-square&logo=a)
-[![code style: prettier](https://img.shields.io/badge/Code_Style-Prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
-[![Discord](https://img.shields.io/discord/1161656512024956959?logo=discord&label=Discord&color=5865F2&style=flat-square)](https://discord.gg/9q2Nnt4wnd)
+[![Website](https://img.shields.io/website?url=https%3A%2F%2Frocket-bot-royale-username-changer.replit.app&up_message=Up&up_color=brightgreen&down_message=Down&down_color=ff0000&label=Website&nbsp;Status)](https://rocket-bot-royale-username-changer.replit.app/)
+[![Static Badge](https://img.shields.io/badge/%3E_1K%20Forks-orange?logo=replit&label=Replit&labelColor=grey)](https://replit.com/@kTaNk8k/Rocket-Bot-Royale-Username-Changer)
+![Static Badge](https://img.shields.io/badge/Change-instant_%F0%9F%94%A5-blue)
+[![code style: prettier](https://img.shields.io/badge/Code_Style-Prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+[![Discord](https://img.shields.io/discord/1161656512024956959?logo=discord&label=Discord&color=5865F2)](https://discord.gg/9q2Nnt4wnd)
 
 </div>
 
