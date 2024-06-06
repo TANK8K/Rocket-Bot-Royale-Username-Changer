@@ -6,11 +6,18 @@ loginForm.addEventListener("submit", (e) => {
   let email = document.getElementById("email").value;
   let password = document.getElementById("password").value;
   let username = document.getElementById("username").value;
-
+  let validUsernamePattern = /^[a-zA-Z0-9 !@#$^&*()_+\-=\[\]{};':"\\|,.<>\/?]*$/;
+  
   if (email == "" || password == "" || username == "") {
     alert("Ensure you input a value in all fields!");
   } else {
-    validate()
+    if (!validUsernamePattern.test(username)) {
+        alert("Username cannot contains special characters.");
+    } else if (username.length > 20) {
+        alert("Username cannot longer than 20 characters.");
+    } else {
+        validate()
+    }
   }
 });
 
