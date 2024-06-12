@@ -34,7 +34,7 @@
 >This tool is NOT endorsed by [WinterpixelGames Inc.](https://www.winterpixel.com)<br>All relevant trademarks belong to their respective owners.
 
 >[!Note]
->This tool may stop working due to game changes.
+>**This tool no longer works.**
 <br>
 
 ## 🚀 Usage
